@@ -34,7 +34,7 @@ jobs:
         run: npm run build.static
 
       - name: Generate static site
-        run: node server/entry.static.js
+        run: npm run ssg
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
