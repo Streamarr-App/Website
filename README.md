@@ -64,3 +64,9 @@ The production build should generate the client and server modules by running bo
 ```
 npm run build
 ```
+
+## Static Site Generator (Node.js)
+
+```
+npm run ssg
+```
