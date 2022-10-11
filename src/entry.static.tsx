@@ -5,6 +5,6 @@ import { join } from 'path';
 
 // Execute Qwik City Static Site Generator
 qwikCityGenerate(render, {
-  origin: 'https://streamarr-app.github.io/Website/',
+  origin: 'https://streamarr-app.github.io/',
   outDir: join(fileURLToPath(import.meta.url), '..', '..', 'dist'),
 });
