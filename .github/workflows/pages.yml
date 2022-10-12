@@ -36,6 +36,9 @@ jobs:
       - name: Generate static site
         run: npm run ssg
 
+      - name: Fix basePathname manually
+        run: sed -i 's/https:\/\/streamarr-app.github.io\//https:\/\/streamarr-app.github.io\/Website\//g' dist/sitemap.xml
+
       - name: Setup Pages
         uses: actions/configure-pages@v2
 
